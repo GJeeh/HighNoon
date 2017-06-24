@@ -70,6 +70,7 @@ class Level {
                             console.log("KITTY NO");
                         }
                             this.score.updateScore(t.points, 0, 0);
+                            console.log(t.hitbox.tagName);
                             this.removeTarget(t);
                             break;
                     }
