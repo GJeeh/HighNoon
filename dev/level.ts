@@ -67,6 +67,7 @@ class Level {
                     if(Util.checkCollision(t.hitbox, this.gun.hitbox)){
                         if(t.hitbox.tagName == "cathitbox"){
                             this.score.updateScore(0, 0, -1000);
+                            console.log("KITTY NO");
                         }
                             this.score.updateScore(t.points, 0, 0);
                             this.removeTarget(t);
