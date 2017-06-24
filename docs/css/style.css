@@ -1,6 +1,6 @@
 @font-face {
     font-family: bit font;
-    src: url('../font/8-BITWONDER.ttf');
+    src: url('/font/8-BITWONDER.ttf');
 }
 
 html, body {
